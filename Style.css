@@ -14,7 +14,6 @@ body {
         "second_one second_one second_one second_two second_two second_two"
         "third_one third_one third_one third_two third_two third_two"
         "fourth_one fourth_one fourth_two fourth_two fourth_three fourth_three";
-
 }
 
 .first {
@@ -29,7 +28,7 @@ body {
     grid-area: second_one;
     border: 1px solid #000000;
     background-color: white;
-    padding: 60px; 
+    padding: 40px; 
     color: yellowgreen;
 }
 
@@ -37,7 +36,7 @@ body {
     grid-area: second_two;
     border: 1px solid #000000;
     background-color: white;
-    padding: 60px;
+    padding: 40px;
     color: yellowgreen;
 }
 
@@ -45,7 +44,7 @@ body {
     grid-area: third_one;
     border: 1px solid #000000;
     background-color: white;
-    padding: 60px;
+    padding: 40px;
     color: yellowgreen;
 }
 
@@ -53,7 +52,7 @@ body {
     grid-area: third_two;
     border: 1px solid #000000;
     background-color: yellowgreen;
-    padding: 60px;
+    padding: 40px;
     color: white;
 }
 
@@ -61,7 +60,7 @@ body {
     grid-area: third_three;
     border: 1px solid #000000;
     background-color: white;
-    padding: 50px;
+    padding: 40px;
     color: yellowgreen;
 }
 
@@ -69,7 +68,7 @@ body {
     grid-area: fourth_one;
     border: 1px solid #000000;
     background-color: yellowgreen;
-    padding: 50px;
+    padding: 20px;
     color: white;
 }
 
@@ -77,7 +76,7 @@ body {
     grid-area: fourth_two;
     border: 1px solid #000000;
     background-color: white;
-    padding: 50px;
+    padding: 20px;
     color: yellowgreen;
 }
 
@@ -85,6 +84,6 @@ body {
     grid-area: fourth_three;
     border: 1px solid #000000;
     background-color: yellowgreen;
-    padding: 50px;
+    padding: 20px;
     color: white;
 }
