@@ -14,6 +14,7 @@ body {
         "second_one second_one second_one second_two second_two second_two"
         "third_one third_one third_one third_two third_two third_two"
         "fourth_one fourth_one fourth_two fourth_two fourth_three fourth_three";
+        grid-gap: 10px;
 }
 
 .first {
