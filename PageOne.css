@@ -15,7 +15,8 @@ body {
         "third third third third third third"
         "fourth_one fourth_one fourth_one fourth_two fourth_two fourth_two"
         "fifth_one fifth_one fifth_one fifth_two fifth_two fifth_two"
-        "sixth_one sixth_one sixth_one sixth_two sixth_two sixth_two";
+        "sixth_one sixth_one sixth_one sixth_two sixth_two sixth_two"
+        "seventh seventh seventh seventh seventh seventh";
 }
 
 .first {
@@ -90,4 +91,19 @@ body {
     color: yellowgreen;
 }
 
+.seventh {
+    grid-area: seventh;
+    border: 1px solid #000000;
+    background-color: white;
+    padding: 30px;
+    color: yellowgreen;
+}
 
+body {
+    Background: url("")
+}
+h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 5em;
+    color:rgb(165, 255, 30)
+}
