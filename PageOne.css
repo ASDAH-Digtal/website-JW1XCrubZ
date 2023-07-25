@@ -17,6 +17,7 @@ body {
         "fifth_one fifth_one fifth_one fifth_two fifth_two fifth_two"
         "sixth_one sixth_one sixth_one sixth_two sixth_two sixth_two"
         "seventh seventh seventh seventh seventh seventh";
+        grid-gap: 5px;
 }
 
 .first {

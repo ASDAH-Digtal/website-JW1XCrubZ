@@ -1,0 +1,73 @@
+body {
+    background-color:black;
+    color: rgb(165, 255, 30);
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 4fr 1fr 2fr 2fr 1fr 4fr;
+    grid-template-areas:
+        "first first first first first first"
+        "second second second second second second"
+        "third third third third third third"
+        "fourth fourth fourth fourth fourth fourth"
+        "fifth fifth fifth fifth fifth";
+}
+
+.first {
+    grid-area: first;
+    border: 1px solid #000000;
+    background-color: yellowgreen;
+    padding: 75px;
+    color: white;
+    height: 300px;
+}
+
+.second {
+    grid-area: second;
+    border: 1px solid #000000;
+    background-color: white;
+    padding: 30px;
+    color: yellowgreen;
+    height: 600px;
+}
+
+.third {
+    grid-area: third;
+    border: 1px solid #000000;
+    background-color: white;
+    padding: 30px;
+    color: yellowgreen;
+    height: 200px;
+}
+
+.fourth {
+    grid-area: fourth;
+    border: 1px solid #000000;
+    background-color: yellowgreen;
+    padding: 40px;
+    color: white;
+}
+
+
+.fifth {
+    grid-area: fifth;
+    border: 1px solid #000000;
+    background-color: yellowgreen;
+    padding: 40px;
+    color: white;
+}
+
+h1{ 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 8em;
+    color: white;
+}
+
+h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 5em;
+}
