@@ -99,11 +99,13 @@ body {
     color: yellowgreen;
 }
 
-body {
-    Background: url("")
+h1{ 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 8em;
+    color: white;
 }
+
 h2 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 5em;
-    color:rgb(165, 255, 30)
 }
