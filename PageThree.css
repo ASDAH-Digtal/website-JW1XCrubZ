@@ -1,0 +1,132 @@
+body {
+    background-color:black;
+    color: rgb(165, 255, 30);
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 4fr 1fr 2fr 2fr 1fr 4fr;
+    grid-template-areas:
+        "first first first first first first"
+        "second_one second_one second_two second_two second_two second_two"
+        "third_one third_one third_two third_two third_two third_two"
+        "fourth_one fourth_one fourth_two fourth_two fourth_two fourth_two"
+        "fifth fifth fifth fifth fifth"
+        "sixth sixth sixth sixth sixth sixth"
+        "seventh seventh seventh seventh seventh seventh"
+        "eighth_one eighth_one eighth_one eighth_two eighth_two eighth_two"
+}
+
+.first {
+    grid-area: first;
+    border: 1px solid #000000;
+    background-color: yellowgreen;
+    padding: 75px;
+    color: white;
+}
+
+.second_one {
+    grid-area: second_one;
+    border: 1px solid #000000;
+    background-color: white;
+    padding: 30px;
+    color: yellowgreen;
+}
+
+.second_two {
+    grid-area: second_two;
+    border: 1px solid #000000;
+    background-color: white;
+    padding: 30px;
+    color: yellowgreen;
+}
+
+.third_one {
+    grid-area: third_one;
+    border: 1px solid #000000;
+    background-color: white;
+    padding: 30px;
+    color: yellowgreen;
+    height: 200px;
+}
+.third_two{
+    grid-area: third_two;
+    border: 1px solid #000000;
+    background-color: white;
+    padding: 30px;
+    color: yellowgreen;
+}
+
+.fourth_one {
+    grid-area: fourth_one;
+    border: 1px solid #000000;
+    background-color: yellowgreen;
+    padding: 40px;
+    color: white;
+}
+
+.fourth_two {
+    grid-area: fourth_two;
+    border: 1px solid #000000;
+    background-color: white;
+    padding: 30px;
+    color: yellowgreen;
+}
+
+.fifth {
+    grid-area: fifth;
+    border: 1px solid #000000;
+    background-color: yellowgreen;
+    padding: 40px;
+    color: white;
+}
+
+.sixth {
+    grid-area: sixth;
+    border: 1px solid #000000;
+    background-color: yellowgreen;
+    padding: 40px;
+    color: white;
+}
+
+.seventh {
+    grid-area: seventh;
+    border: 1px solid #000000;
+    background-color: yellowgreen;
+    padding: 40px;
+    color: white;
+}
+
+.eighth_one {
+    grid-area: eighth_one;
+    border: 1px solid #000000;
+    background-color: yellowgreen;
+    padding: 40px;
+    color: white;
+}
+
+.eighth_two {
+    grid-area: eighth_two;
+    border: 1px solid #000000;
+    background-color: yellowgreen;
+    padding: 40px;
+    color: white;
+}
+
+
+
+
+
+h1{ 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3em;
+    color: white;
+}
+
+h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2em;
+}

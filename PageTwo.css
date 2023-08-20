@@ -23,7 +23,6 @@ body {
     background-color: yellowgreen;
     padding: 75px;
     color: white;
-    height: 300px;
 }
 
 .second {
@@ -32,7 +31,6 @@ body {
     background-color: white;
     padding: 30px;
     color: yellowgreen;
-    height: 600px;
 }
 
 .third {
@@ -63,11 +61,11 @@ body {
 
 h1{ 
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 8em;
+    font-size: 3em;
     color: white;
 }
 
 h2 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 5em;
+    font-size: 2em;
 }
