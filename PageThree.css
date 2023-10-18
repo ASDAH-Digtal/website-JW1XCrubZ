@@ -14,10 +14,9 @@ body {
         "second_one second_one second_two second_two second_two second_two"
         "third_one third_one third_two third_two third_two third_two"
         "fourth_one fourth_one fourth_two fourth_two fourth_two fourth_two"
-        "fifth fifth fifth fifth fifth"
+        "fifth fifth fifth fifth fifth fifth"
         "sixth sixth sixth sixth sixth sixth"
-        "seventh seventh seventh seventh seventh seventh"
-        "eighth_one eighth_one eighth_one eighth_two eighth_two eighth_two"
+        "seventh seventh seventh seventh seventh seventh";
 }
 
 .first {
@@ -99,25 +98,6 @@ body {
     padding: 40px;
     color: white;
 }
-
-.eighth_one {
-    grid-area: eighth_one;
-    border: 1px solid #000000;
-    background-color: yellowgreen;
-    padding: 40px;
-    color: white;
-}
-
-.eighth_two {
-    grid-area: eighth_two;
-    border: 1px solid #000000;
-    background-color: yellowgreen;
-    padding: 40px;
-    color: white;
-}
-
-
-
 
 
 h1{ 
