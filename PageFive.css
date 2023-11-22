@@ -13,7 +13,8 @@ body {
         "first first first first first first"
         "second second second second second second"
         "third_one third_one third_two third_two third_two third_two"
-        "fourth_one fourth_one fourth_one fourth_two fourth_two fourth_two";
+        "fourth_one fourth_one fourth_one fourth_two fourth_two fourth_two"
+        "fifth fifth fifth fifth fifth fifth";
 }
 
 .first {
@@ -29,7 +30,7 @@ body {
     border: 1px solid #000000;
     background-color: #454955;
     padding: 30px;
-    color: white;
+    color: rgb(255, 255, 255);
     text-align: center;
 }
 
@@ -41,12 +42,14 @@ body {
     color: white;
     height: 200px;
 }
-.third_two{
+
+.third_two {
     grid-area: third_two;
     border: 1px solid #000000;
     background-color: #716969;
     padding: 30px;
     color: white;
+    height: 200px;
 }
 
 .fourth_one {
@@ -59,6 +62,14 @@ body {
 
 .fourth_two {
     grid-area: fourth_two;
+    border: 1px solid #000000;
+    background-color: black;
+    padding: 30px;
+    color: white;
+}
+
+.fifth {
+    grid-area: fifth;
     border: 1px solid #000000;
     background-color: black;
     padding: 30px;

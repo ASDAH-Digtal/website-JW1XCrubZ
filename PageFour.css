@@ -12,7 +12,8 @@ body {
     grid-template-areas:
         "first first first first first first"
         "second_one second_one second_two second_two second_two second_two"
-        "third third third third third third";
+        "third third third third third third"
+        "fourth fourth fourth fourth fourth fourth";
 }
 
 .first {
@@ -41,6 +42,14 @@ body {
 
 .third {
     grid-area: third;
+    border: 1px solid #000000;
+    background-color: #2D2E2E;
+    padding: 30px;
+    color: white;
+    height: 50px;
+}
+.fourth {
+    grid-area: fourth;
     border: 1px solid #000000;
     background-color: #2D2E2E;
     padding: 30px;
